@@ -15,15 +15,15 @@
     --danger-color: #ef4444;
     --success-color: #10b981;
     
-    --border-radius: 8px;
+    --border-radius: 30px;
     --box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     --box-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
     --transition: all 0.3s ease;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -35,8 +35,16 @@ body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
     color: var(--dark-color);
-    background-color: #f8fafc;
+    background-color: #adb2f3;
     overflow-x: hidden;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -64,7 +72,7 @@ img {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 auto;
 }
 
 .section {
@@ -73,7 +81,7 @@ img {
 
 .section-title {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     font-size: 2.5rem;
     position: relative;
 }
@@ -354,9 +362,9 @@ img {
 }
 
 .about-text p {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 1.1rem;
-    line-height: 1.8;
+    line-height: 1.5;
 }
 
 .about-highlights {
@@ -394,7 +402,7 @@ img {
 .highlight-card p {
     font-size: 0.95rem;
     color: var(--gray-color);
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 /* Education Section */
@@ -583,35 +591,35 @@ img {
 }
 
 .skill-level.html {
-    width: 95%;
+    width: 90%;
+}
+
+.skill-level.h5p {
+    width: 85%;
 }
 
 .skill-level.css {
-    width: 90%;
+    width: 80%;
 }
 
 .skill-level.js {
-    width: 85%;
-}
-
-.skill-level.react {
-    width: 80%;
-}
-
-.skill-level.python {
-    width: 85%;
-}
-
-.skill-level.node {
     width: 75%;
 }
 
+.skill-level.python {
+    width: 80%;
+}
+
+.skill-level.node {
+    width: 70%;
+}
+
 .skill-level.sql {
-    width: 90%;
+    width: 75%;
 }
 
 .skill-level.api {
-    width: 80%;
+    width: 65%;
 }
 
 .tools-grid {
