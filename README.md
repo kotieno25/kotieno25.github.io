@@ -1,5 +1,4 @@
-Overview
-This portfolio website serves as a professional showcase for my (Kevin Otieno) work, skills, and projects. The responsive design ensures optimal viewing across all devices, while the clean, modern interface highlights the developer's capabilities.
+Overview: This portfolio website serves as a professional showcase for my (Kevin Otieno) work, skills, and projects. The responsive design ensures optimal viewing across all devices, while the clean, modern interface highlights the developer's capabilities.
 
 Key aspects:
 - Single-page application with smooth navigation through different sections that include
