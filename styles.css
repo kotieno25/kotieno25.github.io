@@ -41,7 +41,6 @@ body {
          #ffffcc 50%,   /* Green */
          #cce6ff 100%   /* Blue */
     );
-    overflow-x: hidden;
 }
 
 .logo {
